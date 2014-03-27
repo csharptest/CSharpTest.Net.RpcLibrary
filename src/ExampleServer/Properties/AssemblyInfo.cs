@@ -1,4 +1,4 @@
-﻿#region Copyright 2014 by Roger Knapp, Licensed under the Apache License, Version 2.0
+#region Copyright 2014 by Roger Knapp, Licensed under the Apache License, Version 2.0
 /* Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -16,35 +16,14 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
 [assembly: AssemblyTitle("ExampleServer")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Hewlett-Packard Company")]
 [assembly: AssemblyProduct("ExampleServer")]
-[assembly: AssemblyCopyright("Copyright © Hewlett-Packard Company 2014")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-
-// Setting ComVisible to false makes the types in this assembly not visible 
-// to COM components.  If you need to access a type in this assembly from 
-// COM, set the ComVisible attribute to true on that type.
-[assembly: ComVisible(false)]
-
-// The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("8e4a5f98-bf83-4a50-a2f0-4fcbc5cddee5")]
-
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Build and Revision Numbers 
-// by using the '*' as shown below:
-// [assembly: AssemblyVersion("1.0.*")]
+[assembly: AssemblyProduct("http://CSharpTest.Net/Projects")]
+[assembly: AssemblyConfiguration("Debug")]
+[assembly: AssemblyCompany("Roger Knapp")]
+[assembly: AssemblyCopyright("Copyright 2010 by Roger Knapp, Licensed under the Apache License, Version 2.0")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: ObfuscateAssembly(false)]
