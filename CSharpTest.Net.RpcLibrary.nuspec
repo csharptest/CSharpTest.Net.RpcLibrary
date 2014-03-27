@@ -42,15 +42,10 @@ is usually layered on top of this to turn raw bytes into meaningful messages.
   </metadata>
   
   <files>
-    <file src="..\src\CSharpTest.Net.RpcLibrary\bin\CSharpTest.Net.RpcLibrary.dll" target="lib\net20" />
-    <file src="..\src\CSharpTest.Net.RpcLibrary\bin\CSharpTest.Net.RpcLibrary.pdb" target="lib\net20" />
-    <file src="..\src\CSharpTest.Net.RpcLibrary\bin\CSharpTest.Net.RpcLibrary.xml" target="lib\net20" />
+    <file src="src\CSharpTest.Net.RpcLibrary\bin\CSharpTest.Net.RpcLibrary.???" target="lib\net20" />
+    <file src="src\CSharpTest.Net.RpcLibrary\bin40\CSharpTest.Net.RpcLibrary.???" target="lib\net40" />
 
-    <file src="..\src\CSharpTest.Net.RpcLibrary\bin40\CSharpTest.Net.RpcLibrary.dll" target="lib\net40" />
-    <file src="..\src\CSharpTest.Net.RpcLibrary\bin40\CSharpTest.Net.RpcLibrary.pdb" target="lib\net40" />
-    <file src="..\src\CSharpTest.Net.RpcLibrary\bin40\CSharpTest.Net.RpcLibrary.xml" target="lib\net40" />
-
-    <file src="..\src\**\*.cs" target="src\RpcLibrary\"/>
+    <file src="src\**\*.cs" target="src\RpcLibrary\"/>
   </files>
   
 </package>

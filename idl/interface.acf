@@ -1,0 +1,6 @@
+
+interface IRpcExec
+{
+    [comm_status, fault_status] 
+    Exec();
+}

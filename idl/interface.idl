@@ -1,0 +1,15 @@
+// The UUID must match the specified GUID IID value in C#
+[ uuid (906B0CE0-C70B-1067-B317-00DD010662DA),
+  version(1.0),
+  pointer_default(unique)
+]
+interface IRpcExec
+{
+	error_status_t Exec(
+			[in] handle_t Binding,
+			[in] long lDataSize,
+			[size_is(lDataSize)] byte arData[*],
+			[out] long *plReturnSize,
+			[out, size_is(,*plReturnSize)] byte **arReturn
+			);
+}

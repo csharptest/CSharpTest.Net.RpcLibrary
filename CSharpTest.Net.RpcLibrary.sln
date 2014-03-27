@@ -23,6 +23,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleClient", "src\Exampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleServer", "src\ExampleServer\ExampleServer.csproj", "{EFAEB823-4EEF-4D00-BDB9-BFAF009E7B7E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "idl", "idl", "{BBE3C2B8-B77E-4530-A53D-E0CF6CC59B1D}"
+	ProjectSection(SolutionItems) = preProject
+		idl\interface.acf = idl\interface.acf
+		idl\interface.idl = idl\interface.idl
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
