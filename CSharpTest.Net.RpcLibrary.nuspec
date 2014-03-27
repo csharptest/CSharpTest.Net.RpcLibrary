@@ -12,14 +12,14 @@
     <owners>Roger Knapp</owners>
     <language>en-US</language>
     <licenseUrl>http://csharptest.net/src/LICENSE-2.0.txt</licenseUrl>
-    <projectUrl>http://code.google.com/p/csharptest-net/</projectUrl>
+    <projectUrl>https://github.com/csharptest/CSharpTest.Net.RpcLibrary</projectUrl>
     <iconUrl>http://csharptest.net/favicon.ico</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <copyright>Copyright 2008-2011 by Roger Knapp, Licensed under the Apache License, Version 2.0</copyright>
 
     <tags>Rpc Library Win32 InterProcess IPC Remote Remoting named pipes LRPC TCP communications</tags>
     <summary>CSharpTest.Net.RpcLibrary provides pure managed interop with the Win32 RPC API</summary>
-    <releaseNotes>See the main project page (http://code.google.com/p/csharptest-net/) for release notes.</releaseNotes>
+    <releaseNotes>See the main project page (https://github.com/csharptest/CSharpTest.Net.RpcLibrary) for release notes.</releaseNotes>
     <description>
       <![CDATA[==CSharpTest.Net.RpcLibrary==
 Simply one of the fastest and most robust inter-process communcations available
