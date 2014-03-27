@@ -45,7 +45,7 @@ is usually layered on top of this to turn raw bytes into meaningful messages.
     <file src="src\CSharpTest.Net.RpcLibrary\bin\CSharpTest.Net.RpcLibrary.???" target="lib\net20" />
     <file src="src\CSharpTest.Net.RpcLibrary\bin\net40\CSharpTest.Net.RpcLibrary.???" target="lib\net40" />
 
-    <file src="src\**\*.cs" target="src\RpcLibrary\"/>
+    <file src="src\CSharpTest.Net.RpcLibrary\**\*.cs" target="src\"/>
   </files>
   
 </package>
