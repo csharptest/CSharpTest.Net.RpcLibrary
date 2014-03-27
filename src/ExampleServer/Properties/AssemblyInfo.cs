@@ -18,8 +18,6 @@ using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("ExampleServer")]
 [assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyProduct("ExampleServer")]
 [assembly: AssemblyProduct("http://CSharpTest.Net/Projects")]
 [assembly: AssemblyConfiguration("Debug")]
 [assembly: AssemblyCompany("Roger Knapp")]
