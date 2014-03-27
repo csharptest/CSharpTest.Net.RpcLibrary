@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpTest.Net.RpcLibrary", "src\CSharpTest.Net.RpcLibrary\CSharpTest.Net.RpcLibrary.csproj", "{399E67C2-A18D-4C5C-9FCF-8BEA884EC8D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpTest.Net.RpcLibraryTest", "src\CSharpTest.Net.RpcLibraryTest\CSharpTest.Net.RpcLibraryTest.csproj", "{197601FB-7E62-47DA-8E48-B56C9AD5DF20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".config", ".config", "{9AF6DEDD-F808-428C-9AF6-B986220DE678}"
+	ProjectSection(SolutionItems) = preProject
+		CSharpTest.Net.RpcLibrary.nuspec = CSharpTest.Net.RpcLibrary.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5BFFCAD4-9392-4A31-9D93-BD88625BAFDA}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{399E67C2-A18D-4C5C-9FCF-8BEA884EC8D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{399E67C2-A18D-4C5C-9FCF-8BEA884EC8D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{399E67C2-A18D-4C5C-9FCF-8BEA884EC8D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{399E67C2-A18D-4C5C-9FCF-8BEA884EC8D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{197601FB-7E62-47DA-8E48-B56C9AD5DF20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{197601FB-7E62-47DA-8E48-B56C9AD5DF20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{197601FB-7E62-47DA-8E48-B56C9AD5DF20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{197601FB-7E62-47DA-8E48-B56C9AD5DF20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

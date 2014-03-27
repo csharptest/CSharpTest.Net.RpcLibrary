@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<package 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:noNamespaceSchemaLocation="nuspec.xsd"
+>
+  <metadata>
+    
+    <version>$version$</version>
+    <id>CSharpTest.Net.RpcLibrary</id>
+    <title>CSharpTest.Net.RpcLibrary</title>
+    <authors>Roger Knapp</authors>
+    <owners>Roger Knapp</owners>
+    <language>en-US</language>
+    <licenseUrl>http://csharptest.net/src/LICENSE-2.0.txt</licenseUrl>
+    <projectUrl>http://code.google.com/p/csharptest-net/</projectUrl>
+    <iconUrl>http://csharptest.net/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>Copyright 2008-2011 by Roger Knapp, Licensed under the Apache License, Version 2.0</copyright>
+
+    <tags>Rpc Library Win32 InterProcess IPC Remote Remoting named pipes LRPC TCP communications</tags>
+    <summary>CSharpTest.Net.RpcLibrary provides pure managed interop with the Win32 RPC API</summary>
+    <releaseNotes>See the main project page (http://code.google.com/p/csharptest-net/) for release notes.</releaseNotes>
+    <description>
+      <![CDATA[==CSharpTest.Net.RpcLibrary==
+Simply one of the fastest and most robust inter-process communcations available
+on the Windows platform.  WinRPC is the building block of DCOM and probably the 
+most used remote proceedure call in Windows.  In plain words it is the fastest,
+most stable, secure transport available.  Use it for authenticated or anonymous 
+communications over LRPC, named-pipes, or tcp/ip.
+
+This assembly provides all the interop nessessary to start a server or client; 
+however, it is a transport only implementation.  In other words, it provides no
+more than moving a byte[] back and forth with the remote endpoint.  A protocol
+is usually layered on top of this to turn raw bytes into meaningful messages.
+]]>
+    </description>
+
+    <references>
+      <reference file="CSharpTest.Net.RpcLibrary.dll"/>
+    </references>
+  
+  </metadata>
+  
+  <files>
+    <file src="..\src\CSharpTest.Net.RpcLibrary\bin\CSharpTest.Net.RpcLibrary.dll" target="lib\net20" />
+    <file src="..\src\CSharpTest.Net.RpcLibrary\bin\CSharpTest.Net.RpcLibrary.pdb" target="lib\net20" />
+    <file src="..\src\CSharpTest.Net.RpcLibrary\bin\CSharpTest.Net.RpcLibrary.xml" target="lib\net20" />
+
+    <file src="..\src\CSharpTest.Net.RpcLibrary\bin40\CSharpTest.Net.RpcLibrary.dll" target="lib\net40" />
+    <file src="..\src\CSharpTest.Net.RpcLibrary\bin40\CSharpTest.Net.RpcLibrary.pdb" target="lib\net40" />
+    <file src="..\src\CSharpTest.Net.RpcLibrary\bin40\CSharpTest.Net.RpcLibrary.xml" target="lib\net40" />
+
+    <file src="..\src\**\*.cs" target="src\RpcLibrary\"/>
+  </files>
+  
+</package>
