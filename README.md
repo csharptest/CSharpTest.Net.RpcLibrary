@@ -9,9 +9,13 @@ CSharpTest.Net.RpcLibrary (moved from https://code.google.com/p/csharptest-net/)
 
 ## Online Help ##
 
-See the example client/server application in source...
+Sample Client: <a href="https://github.com/csharptest/CSharpTest.Net.RpcLibrary/blob/master/src/ExampleClient/Program.cs">/src/ExampleClient/Program.cs</a>
 
+Client Help: http://help.csharptest.net/?CSharpTest.Net.RpcLibrary~CSharpTest.Net.RpcLibrary.RpcClientApi.html
 
+Sample Server: <a href="https://github.com/csharptest/CSharpTest.Net.RpcLibrary/blob/master/src/ExampleServer/Program.cs">/src/ExampleServer/Program.cs</a>
+
+Server Help: http://help.csharptest.net/?CSharpTest.Net.RpcLibrary~CSharpTest.Net.RpcLibrary.RpcServerApi.html
 
 ## Quick start ##
 
@@ -52,4 +56,4 @@ using (var client = new RpcClientApi(iid, RpcProtseq.ncalrpc, null, "RpcExampleC
 
 Every Win32 RPC server is identified by an Interface GUID (IID).  A process may have only one instance listening on any give IID at a time.  
 
-Unlike WCF and other connection-oriented channels, RPC keeps the connection apart from the objects avaialable.  This means that a single object instance can listen on multiple endpoints, including multiple different protocols.  It's important to understand that the IID is the 'object selector' in RPC not the endpoint you are listening on.  For instance, i
+Unlike WCF and other connection-oriented channels, RPC keeps the connection apart from the objects avaialable.  This means that a single object instance can listen on multiple endpoints, including multiple different protocols.  It's important to understand that the IID is the 'object selector' in RPC not the endpoint you are listening on. 
